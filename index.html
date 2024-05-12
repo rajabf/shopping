@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-site</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="data:image/png;base64,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">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">XOJA BAZAR</span>
+            </a>
+            <div class="flex md:order-2">
+                <div class="relative hidden md:block">
+                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                    </div>
+                </div>
+                <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <search>
+            <form class="search-form max-w-lg mx-auto">
+                <div class="flex">
+                    <!-- SELECT BY CATEGORY -->
+                    <div class="flex">
+                        <select id="categories" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-s-lg border-s-gray-100 dark:border-s-gray-700 border-s-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option value="" selected>all</option>
+                            <option value="men's clothing">men's clothing</option>
+                            <option value="women's clothing">women's clothing</option>
+                            <option value="electronics">electronics</option>
+                            <option value="jewelery">jewelery</option>
+                        </select>
+                    </div>
+
+                    <!-- SEARCH BY TITLE -->
+                    <div class="relative w-full">
+                        <input type="search" id="search-dropdown" class="search-input block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search ..." required />
+                        <button type="submit" class="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                            </svg>
+                            <span class="sr-only">Search</span>
+                        </button>
+                    </div>
+
+                    <!-- FILTER -->
+                    <div class="flex">
+                        <select id="filter" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-e-lg border-s-gray-100 dark:border-s-gray-700 border-s-2 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <!-- <option value="" selected>default</option> -->
+                            <option value="A - Z" selected>A - Z</option>
+                            <option value="Z - A">Z - A</option>
+                            <option value="lower price">lower price</option>
+                            <option value="higher price">higher price</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </search>
+</section>
+
+<div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900">Wanna buy something?</h2>
+        
+        <div class="product-list mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            
+            <!-- More products... -->
+        </div>
+    </div>
+</div>
+
+<template class="product-template">
+    <div class="group relative border">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <img class="product-img h-full w-full object-cover object-center lg:h-full lg:w-full" src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="img">
+        </div>
+        <div class="mt-4 justify-between p-2">
+            
+            <h3 class="product-title text-sm text-gray-700">
+                Basic Tee
+            </h3>
+            <div class="flex justify-between items-center">
+                <p class="product-category mt-1 text-sm text-gray-500"></p>
+                
+                <p class="product-price text-sm font-medium text-gray-900">$35</p>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+<script src="./js/main.js"></script>
+<script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
